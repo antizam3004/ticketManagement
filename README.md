@@ -18,7 +18,7 @@ http://localhost:8080/stakelimitservice/tickets
 ```
 
 <br/>
-Konfiguracija parametara se radi koristeći PUT metodu na link:
+Konfiguracija parametara se radi koristeći POST metodu na link:
 http://localhost:8080/stakelimitservice/configuration
 
 Šalje se json u formatu:
