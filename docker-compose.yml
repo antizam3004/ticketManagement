@@ -8,7 +8,7 @@ services:
      - MYSQL_PASSWORD=
      - MYSQL_DATABASE=tickets_db
     ports:
-    - "3306:3306"
+    - "3307:3307"
   springboot-docker-container:
     image: springboot-docker-container
     ports:

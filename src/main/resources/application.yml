@@ -1,12 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/tickets_db?useLegacyDatetimeCode=false&serverTimezone=Europe/Zagreb
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3307/tickets_db?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Zagreb
     username: root
     password:
     hikari:
       initialization-fail-timeout: 0
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     generate-ddl: true
     show-sql: true

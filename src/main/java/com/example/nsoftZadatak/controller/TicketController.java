@@ -36,7 +36,6 @@ public class TicketController {
         ZonedDateTime zonedDateTime=ZonedDateTime.ofInstant(instant,zoneId);
 
         if(blockedDevicesRepository.isBlocked(ticket.getDeviceId().toString())){
-            System.out.println("jeste blokiran");
             return "{\"status\" : \"BLOCKED\"}";
         }
 

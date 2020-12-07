@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/nsoft-zadatak.jar nsoft-zadatak.jar
+ADD target/nsoftZadatak-0.0.1-SNAPSHOT.jar nsoft-zadatak.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar" , "nsoft-zadatak.jar"]

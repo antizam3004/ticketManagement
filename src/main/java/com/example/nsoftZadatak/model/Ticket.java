@@ -1,6 +1,7 @@
 package com.example.nsoftZadatak.model;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.UUID;
 
 @Entity
@@ -18,6 +19,8 @@ public class Ticket {
     private UUID deviceId;
 
     private double stake;
+
+    private Date ticket_date_time=new Date();
 
     public Ticket() {
     }
