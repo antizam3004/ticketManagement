@@ -15,7 +15,7 @@ public class ConfigController {
     @Autowired
     ConfigRepository configRepository;
 
-    @PutMapping
+    @PostMapping
     public String configuration(@RequestBody Config config) {
 
         //ako redak postoji u tablici config
