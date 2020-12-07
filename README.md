@@ -24,10 +24,10 @@ http://localhost:8080/stakelimitservice/configuration
 Šalje se json u formatu:
 ```json
 {
-    "time_duration":600,
-    "stake_limit":1000,
-    "hot_percentage":80,
-    "restriction_expires":3600
+    "timeDuration":600,
+    "stakeLimit":1000,
+    "hotPercentage":80,
+    "restrictionExpires":3600
 }
 ```
 U mysql-u je postavljen trigger koji signalizira ako su vrijednosti veće ili manje od dozvoljenih. 
