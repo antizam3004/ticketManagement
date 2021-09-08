@@ -1,5 +1,3 @@
-# NSoft-zadatak
-
 Spring boot aplikacija rađena u InteliJ IDEA. 
 
 Prije pokretanja potrebno u mysql-u kreirati bazu tickets_db i importati datoteku tickets_db.sql iz repozitorija. Nakon toga pokrenuti aplikaciju.
